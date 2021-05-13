@@ -8,6 +8,7 @@ import Skills from './Skills'
 import UI from './MyUI'
 import Project from './MyProject'
 import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
       <SocialApp/>
       <Home/>
       <About/>
-      <Skills/>
+      {/* <Skills/>
       <UI/>
       <Project/>
       <Contact/>
+      <Footer/> */}
     </div>
   );
 }

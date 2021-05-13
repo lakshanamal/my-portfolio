@@ -1,0 +1,15 @@
+.footer{
+    background-color: #032e47;
+    color: white;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contact-icon{
+    display: flex;
+
+}
+.contact-icon >div{
+    margin-right: 10px;
+}
