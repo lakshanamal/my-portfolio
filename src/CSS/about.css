@@ -1,0 +1,42 @@
+.about-container{
+    display: flex;
+    margin-right: 120px;
+}
+.about-box{
+    width: 50%;
+}
+.introduction{
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+.introduction h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.introduction p{
+    font-size: 20px;
+    font-family: "Bahnschrift", Times, serif;
+    color: rgba(0, 0, 0, 0.548);
+    width: 90%;
+    
+}
+.about-me{
+    margin-top: 30px;
+    color: #044A73;
+}
+.about-me h1{
+    margin-bottom:18px ;
+}
+.about-item{
+    display: flex;
+    color: black;
+    margin-bottom: 15px;
+}
+.about-item > div{
+    width: 20px;
+    width: 23px;
+    background-color: #044A73;
+    border-radius: 8px;
+    margin-right: 20px;
+}

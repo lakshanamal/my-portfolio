@@ -49,7 +49,8 @@ li {
 }
 .burger >div{
   padding: 3px;
-  background-color: black;
+  background-color: #044A73;
+  border-radius: 15px;
   margin-bottom: 4px;
 }
 .burger >div:last-child{
@@ -192,7 +193,7 @@ li {
 
 @media screen and (max-width: 468px) {
   .home{
-    padding: 10px;
+    padding: 20px;
   }
   .homeImg img{
     width: 300px;

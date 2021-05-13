@@ -1,0 +1,29 @@
+.skill-box{
+    display: flex;
+    padding: 0 120px 0px 40px;
+}
+.skill{
+    width: 40%;
+}
+.skill-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 8px;
+    border: 3px solid #5C8AFF;
+    border-radius: 17px;
+}
+.skill-intro{
+    margin: 20px;
+}
+.skill-intro p{
+    font-size: 20px;
+    font-family: "Bahnschrift", Times, serif;
+    color: rgba(0, 0, 0, 0.548);
+    width: 90%;
+    margin-top: 15px;
+}
+.skill-item{
+    margin: 20px;
+}
