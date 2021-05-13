@@ -13,32 +13,38 @@ const Skills = () => {
           </div>
         </div>
         <div className="skill-intro">
-          <h1 style={{color:"#044A73"}}>PROFESSIONAL SKILLS</h1>
+          <h1 style={{ color: "#044A73" }}>PROFESSIONAL SKILLS</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel odio
             debitis veniam. Vitae possimus nemo, aspernatur ipsa eaque repellat
             natus?
           </p>
         </div>
+
         <div className="skill-item">
-            <h2>name</h2>
-            <h2>10%</h2>
+          <div className="precentage"></div>
+          <h2 style={{color:"#fff"}}>name</h2>
+          <h2>10%</h2>
         </div>
         <div className="skill-item">
-            <h2>name</h2>
-            <h2>10%</h2>
+          <div className="precentage"></div>
+          <h2 style={{color:"#fff"}}>name</h2>
+          <h2>10%</h2>
         </div>
         <div className="skill-item">
-            <h2>name</h2>
-            <h2>10%</h2>
+          <div className="precentage"></div>
+          <h2 style={{color:"#fff"}}>name</h2>
+          <h2>10%</h2>
         </div>
         <div className="skill-item">
-            <h2>name</h2>
-            <h2>10%</h2>
+          <div className="precentage"></div>
+          <h2 style={{color:"#fff"}}>name</h2>
+          <h2>10%</h2>
         </div>
         <div className="skill-item">
-            <h2>name</h2>
-            <h2>10%</h2>
+          <div className="precentage"></div>
+          <h2 style={{color:"#fff"}}>name</h2>
+          <h2>10%</h2>
         </div>
       </div>
       <div className="homeImg">
