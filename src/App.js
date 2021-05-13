@@ -7,6 +7,7 @@ import About from './About'
 import Skills from './Skills'
 import UI from './MyUI'
 import Project from './MyProject'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills/>
       <UI/>
       <Project/>
+      <Contact/>
     </div>
   );
 }
