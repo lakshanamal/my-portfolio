@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImg from "./assests/img/index.png";
+import HomeImg from "./assests/img/cording1.jpg";
 import "./CSS/skills.css";
 
 const Skills = () => {
@@ -47,7 +47,7 @@ const Skills = () => {
           <h2>10%</h2>
         </div>
       </div>
-      <div className="homeImg">
+      <div className="skill-img">
         <img src={HomeImg} alt="" />
       </div>
     </div>

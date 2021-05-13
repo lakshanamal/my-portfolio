@@ -17,8 +17,8 @@ function App() {
       <SocialApp/>
       <Home/>
       <About/>
-      {/* <Skills/>
-      <UI/>
+      <Skills/>
+      {/* <UI/>
       <Project/>
       <Contact/>
       <Footer/> */}

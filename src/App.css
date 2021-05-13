@@ -162,10 +162,64 @@ li {
 .about-img img {
   width: 600px;
 }
-.details{
+.details {
   width: 170px;
 }
-
+/* Skills page */
+.skill-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px 0px 40px;
+}
+.skill {
+  width: 50%;
+}
+.skill-item {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 5px;
+  border: 3px solid #5c8aff;
+  border-radius: 17px;
+}
+.skill-intro {
+  margin: 20px;
+}
+.skill-intro p {
+  font-size: 20px;
+  font-family: "Bahnschrift", Times, serif;
+  color: rgba(0, 0, 0, 0.548);
+  width: 90%;
+  margin-top: 15px;
+}
+.skill-item {
+  margin: 20px;
+}
+.skill-item h2 {
+  font-size: 25px;
+}
+.precentage {
+  position: absolute;
+  width: 50%;
+  background-color: #5c8aff;
+  padding: 0px;
+  left: -2px;
+  border-radius: 17px;
+  height: 45px;
+  z-index: -1;
+}
+.skill-img {
+  width: 600px;
+  text-align: center;
+}
+.skill-img img {
+  width: 500px;
+  border-radius: 20px;
+}
 @media screen and (max-width: 1366px) {
   .homeImg img {
     width: 650px;
@@ -173,13 +227,26 @@ li {
   .about-img img {
     width: 550px;
   }
+  .skill-img{
+    width: 550px;
+  }
+  .skill-img img {
+    width: 450px;
+  }
   .name {
     font-size: 1.7rem;
   }
 }
+
 @media screen and (max-width: 1133px) {
   .about-img img {
     width: 450px;
+  }
+  .skill-img{
+    width: 400px;
+  }
+  .skill-img img {
+    width: 350px;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -210,6 +277,15 @@ li {
   .resNav6 {
     display: none;
   }
+  .skill-img{
+    width: 370px;
+  }
+  .skill-img img {
+    width: 350px;
+  }
+  .skill-box{
+    padding: 0 40px 0px 40px;
+  }
 }
 @media screen and (max-width: 825px) {
   .homeImg img {
@@ -229,6 +305,12 @@ li {
   }
   .about-container {
     padding: 40px;
+  }
+  .skill-img {
+    display: none;
+  }
+  .skill{
+    width: 100%;
   }
 }
 
@@ -259,7 +341,7 @@ li {
   .burger {
     display: block;
   }
-  .details{
+  .details {
     width: 140px;
   }
 }
@@ -284,10 +366,13 @@ li {
   .about-container {
     padding: 20px;
   }
-  .details{
+  .details {
     width: 80px;
   }
-  .about-item{
+  .about-item {
     font-size: small;
+  }
+  .skill-box{
+    padding: 20px
   }
 }
