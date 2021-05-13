@@ -5,6 +5,8 @@ import SocialApp from './SocialApp'
 import Home from './Home'
 import About from './About'
 import Skills from './Skills'
+import UI from './MyUI'
+import Project from './MyProject'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
+      <UI/>
+      <Project/>
     </div>
   );
 }
