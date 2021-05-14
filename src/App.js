@@ -18,9 +18,9 @@ function App() {
       <Home/>
       <About/>
       <Skills/>
-      {/* <UI/>
+      <UI/>
       <Project/>
-      <Contact/>
+      {/* <Contact/>
       <Footer/> */}
     </div>
   );

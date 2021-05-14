@@ -1,5 +1,6 @@
 import React from "react";
 import "./CSS/ui.css";
+import Ui1 from './assests/img/ui1.png'
 
 const UI = () => {
   return (
@@ -11,12 +12,12 @@ const UI = () => {
         <div className="squre"></div>
       </div>
       <div className="ui-grid">
-          <div><h1>hello</h1></div>
-          <div><h1>hello</h1></div>
-          <div><h1>hello</h1></div>
-          <div><h1>hello</h1></div>
-          <div><h1>hello</h1></div>
-          <div><h1>hello</h1></div>
+          <div><h1><img src={Ui1} alt="" /></h1></div>
+          <div><h1><img src={Ui1} alt="" /></h1></div>
+          <div><h1><img src={Ui1} alt="" /></h1></div>
+          <div><h1><img src={Ui1} alt="" /></h1></div>
+          <div><h1><img src={Ui1} alt="" /></h1></div>
+          <div><h1><img src={Ui1} alt="" /></h1></div>
       </div>
     </div>
   );
