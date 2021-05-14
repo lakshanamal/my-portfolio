@@ -1,5 +1,5 @@
 import React from "react";
-
+import projectImg from './assests/img/ui1.png'
 const Project = () => {
   return (
     <div className="ui-box">
@@ -11,22 +11,22 @@ const Project = () => {
       </div>
       <div className="ui-grid">
         <div>
-          <h1>hello</h1>
+          <h1><img src={projectImg} alt="" /></h1>
         </div>
         <div>
-          <h1>hello</h1>
+          <h1><img src={projectImg} alt="" /></h1>
         </div>
         <div>
-          <h1>hello</h1>
+          <h1><img src={projectImg} alt="" /></h1>
         </div>
         <div>
-          <h1>hello</h1>
+          <h1><img src={projectImg} alt="" /></h1>
         </div>
         <div>
-          <h1>hello</h1>
+          <h1><img src={projectImg} alt="" /></h1>
         </div>
         <div>
-          <h1>hello</h1>
+          <h1><img src={projectImg} alt="" /></h1>
         </div>
       </div>
     </div>

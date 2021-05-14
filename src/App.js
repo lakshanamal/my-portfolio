@@ -20,8 +20,8 @@ function App() {
       <Skills/>
       <UI/>
       <Project/>
-      {/* <Contact/>
-      <Footer/> */}
+      <Contact/>
+      {/* <Footer/> */}
     </div>
   );
 }

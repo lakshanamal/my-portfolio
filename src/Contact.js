@@ -3,7 +3,7 @@ import "./CSS/contact.css";
 
 const Contact = () => {
   return (
-    <div style={{padding:"10px 120px 40px 40px"}}>
+    <div className="contact-container">
       <div className="header-title" style={{ float: "right" }}>
         <div className="main-title">
           <h2 style={{ marginRight: "15px" }}>CONTACT ME</h2>
