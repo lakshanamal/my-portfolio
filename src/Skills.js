@@ -1,6 +1,5 @@
 import React from "react";
 import HomeImg from "./assests/img/cording1.jpg";
-import "./CSS/skills.css";
 
 const Skills = () => {
   return (
@@ -23,27 +22,27 @@ const Skills = () => {
 
         <div className="skill-item">
           <div className="precentage"></div>
-          <h2 style={{color:"#fff"}}>name</h2>
+          <h2 style={{ color: "#fff" }}>name</h2>
           <h2>10%</h2>
         </div>
         <div className="skill-item">
           <div className="precentage"></div>
-          <h2 style={{color:"#fff"}}>name</h2>
+          <h2 style={{ color: "#fff" }}>name</h2>
           <h2>10%</h2>
         </div>
         <div className="skill-item">
           <div className="precentage"></div>
-          <h2 style={{color:"#fff"}}>name</h2>
+          <h2 style={{ color: "#fff" }}>name</h2>
           <h2>10%</h2>
         </div>
         <div className="skill-item">
           <div className="precentage"></div>
-          <h2 style={{color:"#fff"}}>name</h2>
+          <h2 style={{ color: "#fff" }}>name</h2>
           <h2>10%</h2>
         </div>
         <div className="skill-item">
           <div className="precentage"></div>
-          <h2 style={{color:"#fff"}}>name</h2>
+          <h2 style={{ color: "#fff" }}>name</h2>
           <h2>10%</h2>
         </div>
       </div>

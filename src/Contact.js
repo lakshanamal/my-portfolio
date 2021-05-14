@@ -1,5 +1,4 @@
 import React from "react";
-import "./CSS/contact.css";
 
 const Contact = () => {
   return (
@@ -22,10 +21,8 @@ const Contact = () => {
           <textarea name="" id="" cols="30" rows="10"></textarea>
           <div className="btn">
             <button>CONTACT</button>
+          </div>
         </div>
-        </div>
-     
-        
       </div>
     </div>
   );

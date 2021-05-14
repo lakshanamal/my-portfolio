@@ -264,10 +264,11 @@ li {
   width: 450px;
 }
 .contact-item input,textarea{
+  box-sizing: border-box;
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0.418);
   padding: 15px;
-  margin: 10px;
+  margin: 10px 0;
   border-radius: 15px;
   outline: none;
   font-size: 20px;
@@ -283,6 +284,23 @@ li {
   border: none;
   border-radius: 10px;
   font-size: 20px;
+}
+
+/* footer */
+.footer{
+  background-color: #032e47;
+  color: white;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.contact-icon{
+  display: flex;
+
+}
+.contact-icon >div{
+  margin-right: 10px;
 }
 
 
@@ -454,7 +472,7 @@ li {
     grid-template-columns:1fr ;
   }
   .contact-box{
-    width: 300px;
+    width: 100%;
   }
   .contact-container{
     padding: 20px;

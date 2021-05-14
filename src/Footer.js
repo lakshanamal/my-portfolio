@@ -1,5 +1,4 @@
 import React from "react";
-import "./CSS/footer.css";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 import { RiWhatsappFill } from "react-icons/ri";
 
