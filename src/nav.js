@@ -1,6 +1,26 @@
-import React from "react";
+// import React from "react";
 
 const Nav = () => {
+
+  const sider=()=>{
+    const burger =document.querySelector('.burger');
+    const burgerItem=document.querySelectorAll('.burger >div');
+    const sideNav=document.querySelector('.side-nav');
+    if(!sideNav.classList.contains('active')){
+      sideNav.classList.add('active');
+      burgerItem[1].style.opacity="0";
+      burgerItem[0].style.transform="rotate(45deg)";
+      burgerItem[2].style.transform="rotate(-45deg)";
+    }else{
+      sideNav.classList.remove('active');
+      burgerItem[1].style.opacity="1";
+      burgerItem[0].style.transform="rotate(0deg)";
+      burgerItem[2].style.transform="rotate(0deg)";
+    }
+   
+  }
+
+
   const name = "<LAKSHAN";
   const bracket = ">";
   return (
@@ -32,7 +52,7 @@ const Nav = () => {
           <li className="nav-item resNav6">
             <h4>CONTACT</h4>
           </li>
-          <li className="nav-item burger">
+          <li className="nav-item burger" onClick={sider}>
             <div></div>
             <div></div>
             <div></div>

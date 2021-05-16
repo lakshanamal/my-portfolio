@@ -81,6 +81,10 @@ li {
 }
 .side-nav ul li{
   padding: 10% 20px;
+  cursor: pointer;
+}
+.side-nav ul li:hover{
+  color: #044a73;
 }
 /* Socail app */
 .social {
@@ -383,12 +387,13 @@ li {
   .nav {
     padding: 40px 20px 40px 40px;
   }
+  .nav-item{
+    display: none;
+  }
   .burger {
     display: block;
   }
-  .resNav6 {
-    display: none;
-  }
+ 
   .skill-img{
     width: 370px;
   }
@@ -415,9 +420,7 @@ li {
   .name {
     font-size: 1.5rem;
   }
-  .resNav5 {
-    display: none;
-  }
+
   .about-box {
     width: 100% !important;
   }
@@ -439,9 +442,6 @@ li {
   .homeImg img {
     width: 400px;
   }
-  .resNav4 {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 670px) {
@@ -456,9 +456,6 @@ li {
     text-align: center;
   }
 
-  .nav-item {
-    display: none;
-  }
   .burger {
     display: block;
   }
@@ -504,5 +501,8 @@ li {
   }
   .contact-container{
     padding: 20px;
+  }
+  .side-nav{
+    width: 100%;
   }
 }
