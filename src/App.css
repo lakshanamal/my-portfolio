@@ -43,6 +43,9 @@ li {
   border-bottom: 3px solid #5c8aff;
   color: #5c8aff;
 }
+.nav-item:last-child{
+  border-bottom:none;
+}
 .burger {
   display: none;
   width: 30px;
@@ -52,21 +55,29 @@ li {
   background-color: #044a73;
   border-radius: 15px;
   margin-bottom: 4px;
+  transition: 0.3s ease-in;
 }
 .burger > div:last-child {
   margin-bottom: 0px;
 }
 
+
 /* side nav style */
 .side-nav{
+  transform: translateX(400px);
   height: 100vh;
   width: 400px;
   background-color: rgb(255, 255, 255);
-  border-left: 2px solid rgba(146, 29, 255, 0.397);
+  border-left: 2px solid #044a7336;
   position: fixed;
   right: 0;
   text-align: center;
   padding: 20px;
+  transition: 0.4s ease-in;
+}
+
+.active{
+  transform: translateX(0px);
 }
 .side-nav ul li{
   padding: 10% 20px;
