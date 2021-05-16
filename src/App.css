@@ -56,6 +56,21 @@ li {
 .burger > div:last-child {
   margin-bottom: 0px;
 }
+
+/* side nav style */
+.side-nav{
+  height: 100vh;
+  width: 400px;
+  background-color: rgb(255, 255, 255);
+  border-left: 2px solid rgba(146, 29, 255, 0.397);
+  position: fixed;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+}
+.side-nav ul li{
+  padding: 10% 20px;
+}
 /* Socail app */
 .social {
   position: fixed;
@@ -302,6 +317,8 @@ li {
 .contact-icon >div{
   margin-right: 10px;
 }
+
+
 
 
 @media screen and (max-width: 1366px) {

@@ -9,11 +9,13 @@ import UI from './MyUI'
 import Project from './MyProject'
 import Contact from './Contact'
 import Footer from './Footer'
+import SideNav from './burger'
 
 function App() {
   return (
     <div className="App">
       <Nav/>
+      <SideNav/>
       <SocialApp/>
       <Home/>
       <About/>
