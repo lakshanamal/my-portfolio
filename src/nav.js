@@ -33,7 +33,7 @@ const Nav = () => {
       <div className="nav-items">
         <ul>
           <li className="nav-item resNav1">
-            <Link to="home" spy={true} smooth={true} duration={500}>
+            <Link to="homez" spy={true} smooth={true} duration={500}>
               <h4>HOME</h4>
             </Link>
           </li>

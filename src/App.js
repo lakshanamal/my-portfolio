@@ -17,7 +17,7 @@ function App() {
       <Nav />
       <SideNav />
       <SocialApp />
-      <Element id="home" name="home">
+      <Element id="homez" name="home">
         <Home />
       </Element>
       <Element id="about" name="about">
