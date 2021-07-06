@@ -1,6 +1,8 @@
 import React from "react";
 import Ui1 from "./assests/img/ui1.png";
-
+import Ui2 from "./assests/img/ui2.png";
+import Ui3 from "./assests/img/1.png";
+import Ui4 from "./assests/img/3.png";
 const UI = () => {
   return (
     <div className="ui-box">
@@ -18,17 +20,17 @@ const UI = () => {
         </div>
         <div>
           <h1>
-            <img src={Ui1} alt="" />
+            <img src={Ui2} alt="" />
           </h1>
         </div>
         <div>
           <h1>
-            <img src={Ui1} alt="" />
+            <img src={Ui3} alt="" />
           </h1>
         </div>
         <div>
           <h1>
-            <img src={Ui1} alt="" />
+            <img src={Ui4} alt="" />
           </h1>
         </div>
         <div>
