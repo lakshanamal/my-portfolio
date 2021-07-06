@@ -43,8 +43,8 @@ li {
   border-bottom: 3px solid #5c8aff;
   color: #5c8aff;
 }
-.nav-item:last-child{
-  border-bottom:none;
+.nav-item:last-child {
+  border-bottom: none;
 }
 .burger {
   display: none;
@@ -61,9 +61,8 @@ li {
   margin-bottom: 0px;
 }
 
-
 /* side nav style */
-.side-nav{
+.side-nav {
   transform: translateX(400px);
   height: 100vh;
   width: 400px;
@@ -76,14 +75,14 @@ li {
   transition: 0.4s ease-in;
 }
 
-.active{
+.active {
   transform: translateX(0px);
 }
-.side-nav ul li{
+.side-nav ul li {
   padding: 10% 20px;
   cursor: pointer;
 }
-.side-nav ul li:hover{
+.side-nav ul li:hover {
   color: #044a73;
 }
 /* Socail app */
@@ -267,34 +266,34 @@ li {
 .ui-grid > div {
   width: 90%;
   margin-bottom: 15px;
-
 }
 .ui-grid > div img {
-    width: 100%;
+  width: 100%;
   border-radius: 35px;
   transition: 0.5s ease;
   cursor: pointer;
   margin: 10px;
 }
 .ui-grid > div img:hover {
-   transform: scale(1.1);
-  }
-/* contact */
-.contact-container{
-  padding:10px 120px 40px 40px;
+  transform: scale(1.1);
 }
-.contact{
-  padding-top:40px;
+/* contact */
+.contact-container {
+  padding: 10px 120px 40px 40px;
+}
+.contact {
+  padding-top: 40px;
   width: 100%;
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
-.contact-box{
+.contact-box {
   text-align: center;
   width: 450px;
 }
-.contact-item input,textarea{
+.contact-item input,
+textarea {
   box-sizing: border-box;
   width: 100%;
   border: 2px solid rgba(0, 0, 0, 0.418);
@@ -304,21 +303,21 @@ li {
   outline: none;
   font-size: 20px;
 }
-.btn{
+.btn {
   text-align: right;
 }
 
-.btn button{
+.btn button {
   padding: 10px 30px;
   color: #fff;
-  background-color: #5C8AFF;
+  background-color: #5c8aff;
   border: none;
   border-radius: 10px;
   font-size: 20px;
 }
 
 /* footer */
-.footer{
+.footer {
   background-color: #032e47;
   color: white;
   padding: 40px 0;
@@ -326,16 +325,12 @@ li {
   justify-content: space-around;
   text-align: center;
 }
-.contact-icon{
+.contact-icon {
   display: flex;
-
 }
-.contact-icon >div{
+.contact-icon > div {
   margin-right: 10px;
 }
-
-
-
 
 @media screen and (max-width: 1366px) {
   .homeImg img {
@@ -344,7 +339,7 @@ li {
   .about-img img {
     width: 550px;
   }
-  .skill-img{
+  .skill-img {
     width: 550px;
   }
   .skill-img img {
@@ -359,7 +354,7 @@ li {
   .about-img img {
     width: 450px;
   }
-  .skill-img{
+  .skill-img {
     width: 400px;
   }
   .skill-img img {
@@ -388,28 +383,28 @@ li {
   .nav {
     padding: 40px 20px 40px 40px;
   }
-  .nav-item{
+  .nav-item {
     display: none;
   }
   .burger {
     display: block;
   }
- 
-  .skill-img{
+
+  .skill-img {
     width: 370px;
   }
   .skill-img img {
     width: 350px;
   }
-  .skill-box{
+  .skill-box {
     padding: 0 40px 0px 40px;
   }
   .ui-box {
     padding: 40px;
-}
-.contact-container{
-  padding:40px;
-}
+  }
+  .contact-container {
+    padding: 40px;
+  }
 }
 @media screen and (max-width: 825px) {
   .homeImg img {
@@ -431,11 +426,11 @@ li {
   .skill-img {
     display: none;
   }
-  .skill{
+  .skill {
     width: 100%;
   }
-  .ui-grid{
-    grid-template-columns:1fr 1fr ;
+  .ui-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -491,19 +486,19 @@ li {
   .about-item {
     font-size: small;
   }
-  .skill-box{
-    padding: 20px
-  }
-  .ui-grid{
-    grid-template-columns:1fr ;
-  }
-  .contact-box{
-    width: 100%;
-  }
-  .contact-container{
+  .skill-box {
     padding: 20px;
   }
-  .side-nav{
+  .ui-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-box {
+    width: 100%;
+  }
+  .contact-container {
+    padding: 20px;
+  }
+  .side-nav {
     width: 100%;
   }
 }
