@@ -264,6 +264,9 @@ li {
   text-align: center;
   padding: 20px;
 }
+.ui-grid-item {
+  position: relative;
+}
 
 .ui-grid > div {
   width: 90%;
@@ -316,6 +319,7 @@ textarea {
   border: none;
   border-radius: 10px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 /* footer */

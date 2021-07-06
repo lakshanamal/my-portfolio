@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectPop from "./projectPop";
 import Ui1 from "./assests/img/ui1.png";
 import Ui2 from "./assests/img/ui2.png";
 import Ui3 from "./assests/img/1.png";
@@ -14,6 +15,7 @@ const UI = () => {
       </div>
       <div className="ui-grid">
         <div
+          className="ui-grid-item"
           onClick={() => {
             window.location.href =
               "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
@@ -21,9 +23,11 @@ const UI = () => {
         >
           <h1>
             <img src={Ui1} alt="" />
+            <ProjectPop focus={true} />
           </h1>
         </div>
         <div
+          className="ui-grid-item"
           onClick={() => {
             window.location.href =
               "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
@@ -33,12 +37,19 @@ const UI = () => {
             <img src={Ui2} alt="" />
           </h1>
         </div>
-        <div>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119877109/Personal-portfolio";
+          }}
+        >
           <h1>
             <img src={Ui3} alt="" />
           </h1>
         </div>
         <div
+          className="ui-grid-item"
           onClick={() => {
             window.location.href =
               "https://www.behance.net/gallery/122270741/Chat-Application";
