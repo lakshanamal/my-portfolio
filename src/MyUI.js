@@ -13,12 +13,22 @@ const UI = () => {
         <div className="squre"></div>
       </div>
       <div className="ui-grid">
-        <div>
+        <div
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
           <h1>
             <img src={Ui1} alt="" />
           </h1>
         </div>
-        <div>
+        <div
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
           <h1>
             <img src={Ui2} alt="" />
           </h1>
@@ -28,7 +38,12 @@ const UI = () => {
             <img src={Ui3} alt="" />
           </h1>
         </div>
-        <div>
+        <div
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/122270741/Chat-Application";
+          }}
+        >
           <h1>
             <img src={Ui4} alt="" />
           </h1>
