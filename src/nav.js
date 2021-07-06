@@ -32,37 +32,39 @@ const Nav = () => {
       </div>
       <div className="nav-items">
         <ul>
-          <li>
-            <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              duration={500}
-              className="nav-item"
-              activeClass="resNav1"
-            >
-              {/* <h4>HOME</h4> */}
-              Home
+          <li className="nav-item resNav1">
+            <Link to="home" spy={true} smooth={true} duration={500}>
+              <h4>HOME</h4>
             </Link>
           </li>
           <li className="nav-item resNav2">
-            <h4>ABOUT</h4>
+            <Link to="about" spy={true} smooth={true} duration={500}>
+              <h4>ABOUT</h4>
+            </Link>
           </li>
 
           <li className="nav-item resNav3">
-            <h4>SKILLS</h4>
+            <Link to="skill" spy={true} smooth={true} duration={500}>
+              <h4>SKILLS</h4>
+            </Link>
           </li>
 
           <li className="nav-item resNav4">
-            <h4>UI/UX</h4>
+            <Link to="ui" spy={true} smooth={true} duration={500}>
+              <h4>UI/UX</h4>
+            </Link>
           </li>
 
           <li className="nav-item resNav5">
-            <h4>PORTFOLIO</h4>
+            <Link to="project" spy={true} smooth={true} duration={500}>
+              <h4>PORTFOLIO</h4>
+            </Link>
           </li>
 
           <li className="nav-item resNav6">
-            <h4>CONTACT</h4>
+            <Link to="contact" spy={true} smooth={true} duration={500}>
+              <h4>CONTACT</h4>
+            </Link>
           </li>
 
           <li className="nav-item burger" onClick={sider}>

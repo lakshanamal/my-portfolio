@@ -18,13 +18,23 @@ function App() {
       <SideNav />
       <SocialApp />
       <Element id="home" name="home">
-        <Home/>
+        <Home />
       </Element>
-      <About />
-      <Skills />
-      <UI />
-      <Project />
-      <Contact />
+      <Element id="about" name="about">
+        <About />
+      </Element>
+      <Element id="skill" name="skill">
+        <Skills />
+      </Element>
+      <Element id="ui" name="ui">
+        <UI />
+      </Element>
+      <Element id="project" name="project">
+        <Project />
+      </Element>
+      <Element id="contact" name="contact">
+        <Contact />
+      </Element>
       <Footer />
     </div>
   );
