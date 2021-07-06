@@ -22,6 +22,7 @@ li {
   padding: 40px 100px 40px 40px;
   align-items: center;
   background-color: #fff;
+  z-index: 10;
 }
 .logo {
   color: #044a73;
@@ -93,6 +94,7 @@ li {
   height: 100vh;
   width: 100px;
   background-color: #044a73;
+  z-index: 1000;
 }
 .burger-social {
   height: 100px;
