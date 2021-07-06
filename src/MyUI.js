@@ -1,5 +1,4 @@
 import React from "react";
-import ProjectPop from "./projectPop";
 import Ui1 from "./assests/img/ui1.png";
 import Ui2 from "./assests/img/ui2.png";
 import Ui3 from "./assests/img/1.png";
@@ -23,7 +22,6 @@ const UI = () => {
         >
           <h1>
             <img src={Ui1} alt="" />
-            <ProjectPop focus={true} />
           </h1>
         </div>
         <div

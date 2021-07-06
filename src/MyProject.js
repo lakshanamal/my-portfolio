@@ -1,5 +1,6 @@
 import React from "react";
-import projectImg from './assests/img/ui1.png'
+import projectImg from "./assests/img/ui1.png";
+import ProjectPop from "./projectPop";
 const Project = () => {
   return (
     <div className="ui-box">
@@ -10,25 +11,74 @@ const Project = () => {
         </div>
       </div>
       <div className="ui-grid">
-        <div>
-          <h1><img src={projectImg} alt="" /></h1>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
+          <h1>
+            <img src={projectImg} alt="" />
+          </h1>
         </div>
-        <div>
-          <h1><img src={projectImg} alt="" /></h1>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
+          <h1>
+            <img src={projectImg} alt="" />
+          </h1>
         </div>
-        <div>
-          <h1><img src={projectImg} alt="" /></h1>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
+          <h1>
+            <img src={projectImg} alt="" />
+          </h1>
         </div>
-        <div>
-          <h1><img src={projectImg} alt="" /></h1>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
+          <h1>
+            <img src={projectImg} alt="" />
+          </h1>
         </div>
-        <div>
-          <h1><img src={projectImg} alt="" /></h1>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
+          <h1>
+            <img src={projectImg} alt="" />
+          </h1>
         </div>
-        <div>
-          <h1><img src={projectImg} alt="" /></h1>
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            window.location.href =
+              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+          }}
+        >
+          <h1>
+            <img src={projectImg} alt="" />
+          </h1>
         </div>
       </div>
+      <ProjectPop />
     </div>
   );
 };

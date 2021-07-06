@@ -1,7 +1,7 @@
 import React from 'react-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { FaGithub,FaLinkedinIn } from "react-icons/fa";
+import { FaGithub,FaLinkedinIn,FaTimes } from "react-icons/fa";
 
 const SocialApp=()=>{
     return(
