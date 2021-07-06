@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
 
   const sendEmail = (event) => {
     const btn = document.getElementById("button");
@@ -18,9 +15,11 @@ const Contact = () => {
         event.target,
         "user_WkMNdPhGYowMRAUg2UWgf"
       )
+
       .then(
         () => {
           btn.value = "Send Email";
+
           alert("Sent!");
         },
         (err) => {
@@ -47,7 +46,7 @@ const Contact = () => {
               name="name"
               id="name"
               placeholder="Name"
-              onChange={setName}
+           
             />
           </div>
           <div className="contact-item">
@@ -56,7 +55,7 @@ const Contact = () => {
               name="email"
               id="email"
               placeholder="Email"
-              onChange={setEmail}
+            
             />
           </div>
           <textarea
@@ -64,7 +63,6 @@ const Contact = () => {
             id="message"
             cols="30"
             rows="10"
-            onChange={setMessage}
           ></textarea>
           <div className="btn">
             <button type="submit" id="button">
