@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaGithub, FaLinkedinIn, FaTimes } from "react-icons/fa";
 import ReactPlayer from "react-player";
@@ -6,7 +6,9 @@ import pj1 from "./assests/video/pj1.mp4";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 const ProjectPOp = (code, tech) => {
-  const [over, setOver] = useState(false);
+  const [isClose, setIsClose] = useState(false);
+  const myContainer = useRef(null);
+
   let buttonstyle = {
     backgroundColor: "",
     position: "fixed",
@@ -21,6 +23,27 @@ const ProjectPOp = (code, tech) => {
     backgroundColor: "#0B1D36",
     padding: 20,
     borderRedius: 10,
+    // display: "none",
+  };
+  let buttonstyleNone = {
+    backgroundColor: "",
+    position: "fixed",
+    alignItems: "center",
+    justifyContent: "space-around",
+    width: "90%",
+    height: "85%",
+    alignSelf: "center",
+    zIndex: 10,
+    top: 100,
+    color: "white",
+    backgroundColor: "#0B1D36",
+    padding: 20,
+    borderRedius: 10,
+    display: "none",
+  };
+
+  const close = () => {
+    setIsClose(true);
   };
 
   const redirectGit = () => {
@@ -28,9 +51,15 @@ const ProjectPOp = (code, tech) => {
   };
 
   return (
-    <div style={buttonstyle}>
+    <div style={isClose ? buttonstyleNone : buttonstyle} ref={myContainer}>
       <div style={{ width: "100%", height: 30 }}>
-        <FaTimes style={{ float: "right" }} size={"30px"} />
+        <FaTimes
+          style={{ float: "right", cursor: "pointer" }}
+          onClick={() => {
+            close();
+          }}
+          size={"30px"}
+        />
       </div>
       <h1 style={{ padding: 10 }}>Demostration</h1>
       <div
