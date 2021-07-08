@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import pj1 from "./assests/video/pj1.mp4";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const ProjectPOp = (code, tech) => {
+const ProjectPOp = ({ stateChanger }) => {
   const [isClose, setIsClose] = useState(false);
   const myContainer = useRef(null);
 
@@ -56,7 +56,7 @@ const ProjectPOp = (code, tech) => {
         <FaTimes
           style={{ float: "right", cursor: "pointer" }}
           onClick={() => {
-            close();
+            stateChanger(false);
           }}
           size={"30px"}
         />

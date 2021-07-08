@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import projectImg from "./assests/img/ui1.png";
 import ProjectPop from "./projectPop";
 const Project = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="ui-box">
       <div className="header-title">
@@ -14,8 +16,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            window.location.href =
-              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+            setOpen(true);
           }}
         >
           <h1>
@@ -25,8 +26,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            window.location.href =
-              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+            setOpen(true);
           }}
         >
           <h1>
@@ -36,8 +36,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            window.location.href =
-              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+            setOpen(true);
           }}
         >
           <h1>
@@ -47,8 +46,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            window.location.href =
-              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+            setOpen(true);
           }}
         >
           <h1>
@@ -58,8 +56,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            window.location.href =
-              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+            setOpen(true);
           }}
         >
           <h1>
@@ -69,8 +66,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            window.location.href =
-              "https://www.behance.net/gallery/119947723/Fazional-E-commerce";
+            setOpen(true);
           }}
         >
           <h1>
@@ -78,7 +74,7 @@ const Project = () => {
           </h1>
         </div>
       </div>
-      <ProjectPop />
+      {open && <ProjectPop stateChanger={setOpen} />}
     </div>
   );
 };
