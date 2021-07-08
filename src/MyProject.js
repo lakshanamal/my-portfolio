@@ -3,6 +3,9 @@ import projectImg from "./assests/img/ui1.png";
 import ProjectPop from "./projectPop";
 const Project = () => {
   const [open, setOpen] = useState(false);
+  const [name, setName] = useState("");
+  const [link, setLink] = useState("");
+  const [tech, setTech] = useState({});
 
   return (
     <div className="ui-box">
@@ -16,12 +19,24 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
+            setName("Memo Chat application");
             setOpen(true);
           }}
         >
-          <h1>
-            <img src={projectImg} alt="" />
-          </h1>
+          <img src={projectImg} alt="" />
+
+          <div style={{ position: "absolute" }}>
+            <h2>Hello</h2>
+          </div>
+        </div>
+
+        <div
+          className="ui-grid-item"
+          onClick={() => {
+            setOpen(true);
+          }}
+        >
+          <img src={projectImg} alt="" />
         </div>
         <div
           className="ui-grid-item"
@@ -29,9 +44,7 @@ const Project = () => {
             setOpen(true);
           }}
         >
-          <h1>
-            <img src={projectImg} alt="" />
-          </h1>
+          <img src={projectImg} alt="" />
         </div>
         <div
           className="ui-grid-item"
@@ -39,9 +52,7 @@ const Project = () => {
             setOpen(true);
           }}
         >
-          <h1>
-            <img src={projectImg} alt="" />
-          </h1>
+          <img src={projectImg} alt="" />
         </div>
         <div
           className="ui-grid-item"
@@ -49,9 +60,7 @@ const Project = () => {
             setOpen(true);
           }}
         >
-          <h1>
-            <img src={projectImg} alt="" />
-          </h1>
+          <img src={projectImg} alt="" />
         </div>
         <div
           className="ui-grid-item"
@@ -59,22 +68,10 @@ const Project = () => {
             setOpen(true);
           }}
         >
-          <h1>
-            <img src={projectImg} alt="" />
-          </h1>
-        </div>
-        <div
-          className="ui-grid-item"
-          onClick={() => {
-            setOpen(true);
-          }}
-        >
-          <h1>
-            <img src={projectImg} alt="" />
-          </h1>
+          <img src={projectImg} alt="" />
         </div>
       </div>
-      {open && <ProjectPop stateChanger={setOpen} />}
+      {open && <ProjectPop stateChanger={setOpen} name={name} />}
     </div>
   );
 };

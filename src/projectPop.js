@@ -1,13 +1,11 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { FaGithub, FaLinkedinIn, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
 import ReactPlayer from "react-player";
 import pj1 from "./assests/video/pj1.mp4";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-const ProjectPOp = ({ stateChanger }) => {
+const ProjectPOp = ({ stateChanger, name }) => {
   const [isClose, setIsClose] = useState(false);
-  const myContainer = useRef(null);
 
   let buttonstyle = {
     backgroundColor: "",
@@ -51,7 +49,7 @@ const ProjectPOp = ({ stateChanger }) => {
   };
 
   return (
-    <div style={isClose ? buttonstyleNone : buttonstyle} ref={myContainer}>
+    <div style={isClose ? buttonstyleNone : buttonstyle}>
       <div style={{ width: "100%", height: 30 }}>
         <FaTimes
           style={{ float: "right", cursor: "pointer" }}
@@ -94,7 +92,7 @@ const ProjectPOp = ({ stateChanger }) => {
             color: "#4B6171",
           }}
         >
-          <h3>Memo Chat application</h3>
+          <h3>{name}</h3>
 
           <div style={{ paddingTop: 10 }}>
             <h3
