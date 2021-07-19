@@ -21,29 +21,34 @@ const Skills = () => {
         </div>
 
         <div className="skill-item">
-          <div className="precentage"></div>
-          <h2 style={{ color: "#fff" }}>name</h2>
-          <h2>10%</h2>
+          <div className="precentage" style={{ width: "80%" }}></div>
+          <h2 style={{ color: "#fff" }}>JAVA</h2>
+          <h2>80%</h2>
         </div>
         <div className="skill-item">
-          <div className="precentage"></div>
-          <h2 style={{ color: "#fff" }}>name</h2>
-          <h2>10%</h2>
+          <div className="precentage"  style={{ width: "80%" }}></div>
+          <h2 style={{ color: "#fff" }}>JAVASCRIPT</h2>
+          <h2>80%</h2>
         </div>
         <div className="skill-item">
-          <div className="precentage"></div>
-          <h2 style={{ color: "#fff" }}>name</h2>
-          <h2>10%</h2>
+          <div className="precentage"  style={{ width: "70%" }}></div>
+          <h2 style={{ color: "#fff" }}>PHP</h2>
+          <h2>70%</h2>
         </div>
         <div className="skill-item">
-          <div className="precentage"></div>
-          <h2 style={{ color: "#fff" }}>name</h2>
-          <h2>10%</h2>
+          <div className="precentage"  style={{ width: "70%" }}></div>
+          <h2 style={{ color: "#fff" }}>C++</h2>
+          <h2>70%</h2>
         </div>
         <div className="skill-item">
-          <div className="precentage"></div>
-          <h2 style={{ color: "#fff" }}>name</h2>
-          <h2>10%</h2>
+          <div className="precentage"  style={{ width: "85%" }}></div>
+          <h2 style={{ color: "#fff" }}>HTML</h2>
+          <h2>85%</h2>
+        </div>
+        <div className="skill-item">
+          <div className="precentage"  style={{ width: "85%" }}></div>
+          <h2 style={{ color: "#fff" }}>CSS</h2>
+          <h2>85%</h2>
         </div>
       </div>
       <div className="skill-img">
