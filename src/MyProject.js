@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import projectImg from "./assests/img/ui1.png";
+import recipeImage from "./assests/img/recipe.png";
 import Ui from "./assests/img/3.png";
 import ProjectPop from "./projectPop";
 import chat from "./assests/video/pj1.mp4";
 import Recipe from "./assests/video/recipe.mp4";
 import Musify from "./assests/video/musify.mp4";
+import MusifyImage from "./assests/img/pro3.PNG";
 
 const Project = () => {
   const [open, setOpen] = useState(false);
@@ -46,7 +48,7 @@ const Project = () => {
             setVideo(Recipe);
           }}
         >
-          <img src={projectImg} alt="" />
+          <img style={{ width: 220 }} src={recipeImage} alt="" />
         </div>
         <div
           className="ui-grid-item"
@@ -57,7 +59,7 @@ const Project = () => {
             setVideo(Musify);
           }}
         >
-          <img src={projectImg} alt="" />
+          <img src={MusifyImage} alt="" />
         </div>
         <div
           className="ui-grid-item"
