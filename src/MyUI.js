@@ -3,6 +3,7 @@ import Ui1 from "./assests/img/ui1.png";
 import Ui2 from "./assests/img/ui2.png";
 import Ui3 from "./assests/img/1.png";
 import Ui4 from "./assests/img/3.png";
+
 const UI = () => {
   return (
     <div className="ui-box">

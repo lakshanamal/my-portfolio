@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import projectImg from "./assests/img/ui1.png";
+import Ui from "./assests/img/3.png";
 import ProjectPop from "./projectPop";
 const Project = () => {
   const [open, setOpen] = useState(false);
@@ -20,10 +21,11 @@ const Project = () => {
           className="ui-grid-item"
           onClick={() => {
             setName("Memo Chat application");
+            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
         >
-          <img src={projectImg} alt="" />
+          <img src={Ui} alt="" />
 
           <div style={{ position: "absolute" }}>
             <h2>Hello</h2>
@@ -33,6 +35,8 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
+            setName("Memo Chat application");
+            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
         >
@@ -41,6 +45,8 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
+            setName("Memo Chat application");
+            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
         >
@@ -49,6 +55,8 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
+            setName("Memo Chat application");
+            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
         >
@@ -57,6 +65,8 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
+            setName("Memo Chat application");
+            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
         >
@@ -65,13 +75,15 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
+            setName("Memo Chat application");
+            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
         >
           <img src={projectImg} alt="" />
         </div>
       </div>
-      {open && <ProjectPop stateChanger={setOpen} name={name} />}
+      {open && <ProjectPop stateChanger={setOpen} name={name} link={link} />}
     </div>
   );
 };

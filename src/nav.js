@@ -1,4 +1,4 @@
-import { ScrollLink, Link } from "react-scroll";
+import { Link } from "react-scroll";
 // const ScrollLink = Scroll.ScrollLink;
 
 const Nav = () => {
@@ -57,7 +57,7 @@ const Nav = () => {
 
           <li className="nav-item resNav5">
             <Link to="project" spy={true} smooth={true} duration={500}>
-              <h4>PORTFOLIO</h4>
+              <h4>PROJECTS</h4>
             </Link>
           </li>
 

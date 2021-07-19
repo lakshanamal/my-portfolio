@@ -1,14 +1,13 @@
-import React, { useState, useEffect, useRef } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaTimes } from "react-icons/fa";
 import ReactPlayer from "react-player";
 import pj1 from "./assests/video/pj1.mp4";
 
-const ProjectPOp = ({ stateChanger, name }) => {
+const ProjectPOp = ({ stateChanger, name, link }) => {
   const [isClose, setIsClose] = useState(false);
 
   let buttonstyle = {
-    backgroundColor: "",
     position: "fixed",
     alignItems: "center",
     justifyContent: "space-around",
@@ -24,7 +23,6 @@ const ProjectPOp = ({ stateChanger, name }) => {
     // display: "none",
   };
   let buttonstyleNone = {
-    backgroundColor: "",
     position: "fixed",
     alignItems: "center",
     justifyContent: "space-around",
@@ -40,12 +38,12 @@ const ProjectPOp = ({ stateChanger, name }) => {
     display: "none",
   };
 
-  const close = () => {
-    setIsClose(true);
-  };
+  // const close = () => {
+  //   setIsClose(true);
+  // };
 
   const redirectGit = () => {
-    window.location.href = "https://github.com/lakshanamal/ChatApp_reactNative";
+    window.location.href = link;
   };
 
   return (
