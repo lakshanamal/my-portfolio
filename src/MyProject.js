@@ -2,12 +2,16 @@ import React, { useState, useEffect } from "react";
 import projectImg from "./assests/img/ui1.png";
 import Ui from "./assests/img/3.png";
 import ProjectPop from "./projectPop";
+import chat from "./assests/video/pj1.mp4";
+import Recipe from "./assests/video/recipe.mp4";
+import Musify from "./assests/video/musify.mp4";
+
 const Project = () => {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
   const [link, setLink] = useState("");
   const [tech, setTech] = useState({});
-
+  const [video, setVideo] = useState("");
   return (
     <div className="ui-box">
       <div className="header-title">
@@ -23,6 +27,7 @@ const Project = () => {
             setName("Memo Chat application");
             setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
+            setVideo(chat);
           }}
         >
           <img src={Ui} alt="" />
@@ -35,9 +40,10 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            setName("Memo Chat application");
+            setName("Recipe App");
             setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
+            setVideo(Recipe);
           }}
         >
           <img src={projectImg} alt="" />
@@ -45,9 +51,10 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            setName("Memo Chat application");
+            setName("Music App");
             setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
+            setVideo(Musify);
           }}
         >
           <img src={projectImg} alt="" />
@@ -55,7 +62,7 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            setName("Memo Chat application");
+            setName("E Commorce App");
             setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
           }}
@@ -83,7 +90,14 @@ const Project = () => {
           <img src={projectImg} alt="" />
         </div>
       </div>
-      {open && <ProjectPop stateChanger={setOpen} name={name} link={link} />}
+      {open && (
+        <ProjectPop
+          stateChanger={setOpen}
+          name={name}
+          link={link}
+          video={video}
+        />
+      )}
     </div>
   );
 };

@@ -2,9 +2,8 @@ import React, { useState } from "react";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaTimes } from "react-icons/fa";
 import ReactPlayer from "react-player";
-import pj1 from "./assests/video/pj1.mp4";
 
-const ProjectPOp = ({ stateChanger, name, link }) => {
+const ProjectPOp = ({ stateChanger, name, link, video }) => {
   const [isClose, setIsClose] = useState(false);
 
   let buttonstyle = {
@@ -78,7 +77,7 @@ const ProjectPOp = ({ stateChanger, name, link }) => {
             width="100%"
             controls={true}
             height="100%"
-            url={pj1}
+            url={video}
           />
         </div>
         <div
