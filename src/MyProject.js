@@ -7,6 +7,7 @@ import chat from "./assests/video/pj1.mp4";
 import Recipe from "./assests/video/recipe.mp4";
 import Musify from "./assests/video/musify.mp4";
 import MusifyImage from "./assests/img/pro3.PNG";
+import Commerce from "./assests/img/commerce.PNG";
 
 const Project = () => {
   const [open, setOpen] = useState(false);
@@ -43,7 +44,7 @@ const Project = () => {
           className="ui-grid-item"
           onClick={() => {
             setName("Recipe App");
-            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
+            setLink("https://github.com/lakshanamal/recipe-app-react");
             setOpen(true);
             setVideo(Recipe);
           }}
@@ -54,7 +55,7 @@ const Project = () => {
           className="ui-grid-item"
           onClick={() => {
             setName("Music App");
-            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
+            setLink("https://github.com/lakshanamal/music_app");
             setOpen(true);
             setVideo(Musify);
           }}
@@ -65,11 +66,11 @@ const Project = () => {
           className="ui-grid-item"
           onClick={() => {
             setName("E Commorce App");
-            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
+            setLink("https://github.com/lakshanamal/E-COMMERCE");
             setOpen(true);
           }}
         >
-          <img src={projectImg} alt="" />
+          <img src={Commerce} alt="" />
         </div>
         <div
           className="ui-grid-item"
