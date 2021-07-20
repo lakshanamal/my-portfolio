@@ -8,12 +8,13 @@ import Recipe from "./assests/video/recipe.mp4";
 import Musify from "./assests/video/musify.mp4";
 import MusifyImage from "./assests/img/pro3.PNG";
 import Commerce from "./assests/img/commerce.PNG";
+import Pesence from "./assests/img/presence.PNG";
 
 const Project = () => {
   const [open, setOpen] = useState(false);
   const [name, setName] = useState("");
   const [link, setLink] = useState("");
-  const [tech, setTech] = useState({});
+  const [tech, setTech] = useState([]);
   const [video, setVideo] = useState("");
   return (
     <div className="ui-box">
@@ -31,6 +32,7 @@ const Project = () => {
             setLink("https://github.com/lakshanamal/ChatApp_reactNative");
             setOpen(true);
             setVideo(chat);
+            setTech(["React-native", "Firebase", "Expo"]);
           }}
         >
           <img src={Ui} alt="" />
@@ -47,6 +49,7 @@ const Project = () => {
             setLink("https://github.com/lakshanamal/recipe-app-react");
             setOpen(true);
             setVideo(Recipe);
+            setTech(["ReactJS", "APIs"]);
           }}
         >
           <img style={{ width: 220 }} src={recipeImage} alt="" />
@@ -58,6 +61,7 @@ const Project = () => {
             setLink("https://github.com/lakshanamal/music_app");
             setOpen(true);
             setVideo(Musify);
+            setTech(["Flutter"]);
           }}
         >
           <img src={MusifyImage} alt="" />
@@ -68,6 +72,8 @@ const Project = () => {
             setName("E Commorce App");
             setLink("https://github.com/lakshanamal/E-COMMERCE");
             setOpen(true);
+            setVideo(Commerce);
+            setTech(["ReactJS", "ExpressJS", "NodeJS", "MongoDB"]);
           }}
         >
           <img src={Commerce} alt="" />
@@ -75,19 +81,23 @@ const Project = () => {
         <div
           className="ui-grid-item"
           onClick={() => {
-            setName("Memo Chat application");
-            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
+            setName("Presence lecture delivery and management system");
+            setLink("");
             setOpen(true);
+            setTech(["ReactJS", "Fastify", "NodeJS", "PostgreSQL"]);
           }}
         >
-          <img src={projectImg} alt="" />
+          <img src={Pesence} alt="" />
         </div>
         <div
           className="ui-grid-item"
           onClick={() => {
-            setName("Memo Chat application");
-            setLink("https://github.com/lakshanamal/ChatApp_reactNative");
+            setName("Bodima accomodation management system");
+            setLink(
+              "https://github.com/group-project-2nd-year-team-12/bodima-app"
+            );
             setOpen(true);
+            setTech(["HTML", "CSS", "Javascript", "PHP", "Jquery", "MySQL"]);
           }}
         >
           <img src={projectImg} alt="" />
@@ -99,6 +109,7 @@ const Project = () => {
           name={name}
           link={link}
           video={video}
+          tech={tech}
         />
       )}
     </div>
