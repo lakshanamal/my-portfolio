@@ -1,28 +1,34 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.446d5487.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.ece35eb7.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.ece35eb7.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.794c7c7d.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.11d0a6c1.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.11d0a6c1.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.7076610f.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.7076610f.js.map",
     "static/js/2.4824181a.chunk.js": "/my-portfolio/static/js/2.4824181a.chunk.js",
     "static/js/2.4824181a.chunk.js.map": "/my-portfolio/static/js/2.4824181a.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "static/css/main.446d5487.chunk.css.map": "/my-portfolio/static/css/main.446d5487.chunk.css.map",
+    "static/css/main.794c7c7d.chunk.css.map": "/my-portfolio/static/css/main.794c7c7d.chunk.css.map",
     "static/js/2.4824181a.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.4824181a.chunk.js.LICENSE.txt",
     "static/media/1.29fccb7e.png": "/my-portfolio/static/media/1.29fccb7e.png",
     "static/media/3.3c9633fa.png": "/my-portfolio/static/media/3.3c9633fa.png",
     "static/media/about.9261d450.png": "/my-portfolio/static/media/about.9261d450.png",
+    "static/media/commerce.485ebf97.PNG": "/my-portfolio/static/media/commerce.485ebf97.PNG",
     "static/media/cording1.574865d9.jpg": "/my-portfolio/static/media/cording1.574865d9.jpg",
     "static/media/index.8370581a.png": "/my-portfolio/static/media/index.8370581a.png",
+    "static/media/musify.22803e1b.mp4": "/my-portfolio/static/media/musify.22803e1b.mp4",
     "static/media/pj1.df00013d.mp4": "/my-portfolio/static/media/pj1.df00013d.mp4",
+    "static/media/presence.9d4a5492.PNG": "/my-portfolio/static/media/presence.9d4a5492.PNG",
+    "static/media/pro3.943f19bd.PNG": "/my-portfolio/static/media/pro3.943f19bd.PNG",
+    "static/media/recipe.98a3b0e3.mp4": "/my-portfolio/static/media/recipe.98a3b0e3.mp4",
+    "static/media/recipe.c0bd4c11.png": "/my-portfolio/static/media/recipe.c0bd4c11.png",
     "static/media/ui1.cf7d0df4.png": "/my-portfolio/static/media/ui1.cf7d0df4.png",
     "static/media/ui2.19f1338e.png": "/my-portfolio/static/media/ui2.19f1338e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.7076610f.js",
     "static/js/2.4824181a.chunk.js",
-    "static/css/main.446d5487.chunk.css",
-    "static/js/main.ece35eb7.chunk.js"
+    "static/css/main.794c7c7d.chunk.css",
+    "static/js/main.11d0a6c1.chunk.js"
   ]
 }
