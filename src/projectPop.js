@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import ReactPlayer from "react-player";
 
-const ProjectPOp = ({ stateChanger, name, link, video }) => {
+const ProjectPOp = ({ stateChanger, name, link, video, tech }) => {
   const [isClose, setIsClose] = useState(false);
 
   let buttonstyle = {
@@ -102,44 +102,23 @@ const ProjectPOp = ({ stateChanger, name, link, video }) => {
           <div style={{ paddingTop: 10 }}>
             <h3>Technology that used </h3>
             <div>
-              <h4
-                style={{
-                  padding: 5,
-                  background: "red",
-                  alignSelf: "flex-end",
-                  color: "white",
-                  borderRadius: 5,
-                  minWidth: 10,
-                }}
-              >
-                React-Native
-              </h4>
-              <h4
-                style={{
-                  padding: 5,
-                  background: "pink",
-                  alignSelf: "flex-end",
-                  color: "white",
-                  borderRadius: 5,
-                  minWidth: 10,
-                  marginTop: 5,
-                }}
-              >
-                ReactJs
-              </h4>
-              <h4
-                style={{
-                  padding: 5,
-                  background: "orange",
-                  alignSelf: "flex-end",
-                  color: "white",
-                  borderRadius: 5,
-                  minWidth: 10,
-                  marginTop: 5,
-                }}
-              >
-                ReactJs
-              </h4>
+              {tech.map((item) => {
+                return (
+                  <h4
+                    style={{
+                      padding: 5,
+                      background: "blue",
+                      alignSelf: "flex-end",
+                      color: "white",
+                      borderRadius: 5,
+                      minWidth: 10,
+                      marginBottom: 5,
+                    }}
+                  >
+                    {item}
+                  </h4>
+                );
+              })}
             </div>
           </div>
         </div>

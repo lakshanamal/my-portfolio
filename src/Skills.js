@@ -11,15 +11,6 @@ const Skills = () => {
             <h2>MY SKILLS</h2>
           </div>
         </div>
-        <div className="skill-intro">
-          <h1 style={{ color: "#044A73" }}>PROFESSIONAL SKILLS</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel odio
-            debitis veniam. Vitae possimus nemo, aspernatur ipsa eaque repellat
-            natus?
-          </p>
-        </div>
-
         <div className="skill-item">
           <div className="precentage" style={{ width: "80%" }}></div>
           <h2 style={{ color: "#fff" }}>JAVA</h2>

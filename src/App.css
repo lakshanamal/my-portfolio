@@ -113,6 +113,7 @@ li {
   justify-content: space-around;
   height: 60px;
   color: white;
+  cursor: pointer;
   /* padding: 40px 20px; */
 }
 

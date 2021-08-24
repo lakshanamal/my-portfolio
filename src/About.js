@@ -19,9 +19,7 @@ const About = () => {
             HI! <span style={{ color: "#044A73" }}>THERE,</span>
           </h1>
           <p>
-            I am an web developer. Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Doloremque voluptatum voluptatem quaerat, velit at
-            autem recusandae esse nostrum modi nemo!
+            I am an full stack developer. I am undergraduate student in UCSC. I most like to create things . 
           </p>
         </div>
         <div className="about-me">

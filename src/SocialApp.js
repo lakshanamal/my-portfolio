@@ -10,12 +10,23 @@ const SocialApp = () => {
         <div></div>
         <div style={{ width: "30px" }}></div>
       </div>
-      <div className="social-item">
+      <div
+        className="social-item"
+        onClick={() => {
+          window.location.href =
+            "https://www.linkedin.com/in/amal-lakshan-211976189/";
+        }}
+      >
         <FaLinkedinIn size={"30px"} />
       </div>
       <div className="social-item">
         {" "}
-        <FaGithub size={"30px"} />
+        <FaGithub
+          size={"30px"}
+          onClick={() => {
+            window.location.href = "https://github.com/lakshanamal";
+          }}
+        />
       </div>
     </div>
   );
